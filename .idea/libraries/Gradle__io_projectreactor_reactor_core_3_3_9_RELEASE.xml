@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.projectreactor:reactor-core:3.3.9.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.9.RELEASE/cce63b50019828d5af606b6634c8d6b24987b0a3/reactor-core-3.3.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.9.RELEASE/6a7e7cc7d9cfc5c127c147555e3adbfc00dd46fc/reactor-core-3.3.9.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
