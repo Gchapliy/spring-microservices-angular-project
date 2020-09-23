@@ -22,15 +22,18 @@ public class LogServiceImpl implements LogService {
     private SummaryRepository summaryRepository;
 
     @Override
-    public Log saveOrUpdate(Log log) {
-        Summary existSummary =
-                summaryRepository.findByCourseId(log.getCourseId()).orElse(null);
+    public Summary findSummaryByCourseId(Long courseId) {
+        return summaryRepository.findByCourseId(courseId).orElse(null);
+    }
 
-        if (existSummary != null) {
+    @Override
+    public Log saveOrUpdate(Log log) {
+        Summary existSummary = summaryRepository.findByCourseId(log.getCourseId()).orElse(null);
+        if(existSummary!=null){
             summaryRepository.delete(existSummary);
-            existSummary.setHitCount(existSummary.getHitCount() + 1);
+            existSummary.setHitCount(existSummary.getHitCount()+1);
             summaryRepository.save(existSummary);
-        } else {
+        }else{
             Summary summary = new Summary();
             summary.setCourseId(log.getCourseId());
             summary.setHitCount(1L);
@@ -42,12 +45,14 @@ public class LogServiceImpl implements LogService {
     }
 
     @Override
-    public List<Summary> findPopularCourses() {
-        return summaryRepository.retrievePopularCourses();
+    public Summary saveOrUpdate(Summary summary) {
+        summaryRepository.save(summary);
+        return summary;
     }
 
+
     @Override
-    public Summary findSummaryByCourseId(Long courseId) {
-        return summaryRepository.findByCourseId(courseId).orElse(null);
+    public List<Summary> findPopularCourses(){
+        return summaryRepository.findPopularCourses();
     }
 }

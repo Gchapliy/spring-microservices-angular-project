@@ -11,6 +11,9 @@ public interface SummaryRepository extends CrudRepository<Summary, Long> {
 
     Optional<Summary> findByCourseId(Long courseId);
 
+    @Query("update summary set hit_count = hit_count + 1 where course_id=?0")
+    void incrementHitCount(Long courseId);
+
     @Query("Select * from summary limit 100")
-    List<Summary> retrievePopularCourses();
+    List<Summary> findPopularCourses();
 }

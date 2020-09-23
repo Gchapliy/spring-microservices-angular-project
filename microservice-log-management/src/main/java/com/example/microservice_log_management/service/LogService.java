@@ -6,9 +6,11 @@ import com.example.microservice_log_management.model.Summary;
 import java.util.List;
 
 public interface LogService {
+    Summary findSummaryByCourseId(Long courseId);
+
     Log saveOrUpdate(Log log);
 
-    List<Summary> findPopularCourses();
+    Summary saveOrUpdate(Summary summary);
 
-    Summary findSummaryByCourseId(Long courseId);
+    List<Summary> findPopularCourses();
 }
