@@ -19,6 +19,8 @@ public class CassandraConfig extends AbstractCassandraConfiguration{
 
     @Value("${spring.data.cassandra.keyspace-name}")
     private String KEYSPACE;
+    @Value("${spring.data.cassandra.local-datacenter}")
+    private String DATA_CENTER;
 
     @Override
     protected String getKeyspaceName() {
@@ -28,6 +30,11 @@ public class CassandraConfig extends AbstractCassandraConfiguration{
     @Override
     public SchemaAction getSchemaAction() {
         return SchemaAction.CREATE_IF_NOT_EXISTS;
+    }
+
+    @Override
+    protected String getLocalDataCenter() {
+        return DATA_CENTER;
     }
 
     @Override

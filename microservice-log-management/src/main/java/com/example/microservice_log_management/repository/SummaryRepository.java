@@ -12,5 +12,5 @@ public interface SummaryRepository extends CrudRepository<Summary, Long> {
     Optional<Summary> findByCourseId(Long courseId);
 
     @Query("Select * from summary limit 100")
-    List<Summary> findPopularCourses();
+    List<Summary> retrievePopularCourses();
 }

@@ -43,7 +43,7 @@ public class LogServiceImpl implements LogService {
 
     @Override
     public List<Summary> findPopularCourses() {
-        return summaryRepository.findPopularCourses();
+        return summaryRepository.retrievePopularCourses();
     }
 
     @Override
