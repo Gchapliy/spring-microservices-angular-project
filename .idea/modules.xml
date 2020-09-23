@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-discovery-service.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-discovery-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-discovery-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-discovery-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-discovery-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-discovery-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-course-management/microservice-course-management.iml" filepath="$PROJECT_DIR$/microservice-course-management/microservice-course-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservice-course-management.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservice-course-management.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservice-course-management.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservice-course-management.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-log-management/microservice-log-management.iml" filepath="$PROJECT_DIR$/microservice-log-management/microservice-log-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservice-log-management.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservice-log-management.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservice-log-management.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservice-log-management.test.iml" />
