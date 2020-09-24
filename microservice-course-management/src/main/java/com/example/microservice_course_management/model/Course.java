@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @Data
 @Entity
 @Table(name = "course")
-public class Course {
+public class Course implements IModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

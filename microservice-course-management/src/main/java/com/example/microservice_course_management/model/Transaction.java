@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @Table(name = "transaction")
-public class Transaction {
+public class Transaction implements IModel{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

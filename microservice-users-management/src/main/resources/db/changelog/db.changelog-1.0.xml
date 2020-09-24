@@ -3,7 +3,7 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd"
         xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.liquibase.org/xml/ns/dbchangelog">
-    <changeSet author="hrigorii" id="1">
+    <changeSet author="hrygorii" id="1">
         <sql>
             CREATE TABLE users (
                 id BIGINT NOT NULL PRIMARY KEY,
@@ -14,7 +14,7 @@
         </sql>
         <rollback>DROP TABLE users;</rollback>
     </changeSet>
-    <changeSet author="hrigorii" id="2">
+    <changeSet author="hrygorii" id="2">
         <sql>ALTER TABLE users ADD email varchar(255);</sql>
         <rollback>ALTER TABLE users DROP COLUMN email;</rollback>
     </changeSet>
