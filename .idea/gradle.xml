@@ -5,6 +5,16 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservice-course-management" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/microservice-course-management" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="C:\Users\Hryhorii\IdeaProjects\COURSES\BACK-PROJECTS\Spring_cloud_microservices\spring-microservices-angular-project\microservice-course-management" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
