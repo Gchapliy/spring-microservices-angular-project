@@ -19,6 +19,8 @@
       <module name="microservice-users-management" target="1.8" />
       <module name="microservice-users-management.main" target="1.8" />
       <module name="microservice-users-management.test" target="1.8" />
+      <module name="zuul-gateway-service.main" target="1.8" />
+      <module name="zuul-gateway-service.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
