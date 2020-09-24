@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-users-management/microservice-users-management.iml" filepath="$PROJECT_DIR$/microservice-users-management/microservice-users-management.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservice-users-management.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservice-users-management.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservice-users-management.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservice-users-management.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-gateway-service/zuul-gateway-service.iml" filepath="$PROJECT_DIR$/zuul-gateway-service/zuul-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-gateway-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-gateway-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul-gateway-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul-gateway-service.test.iml" />
     </modules>
   </component>
 </project>
